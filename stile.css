@@ -1,0 +1,119 @@
+/* @override http://www.cba-design.it/clienti/triennale/stile.css */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-image: url(images/back.jpg);
+}
+
+#intro {
+	margin: 120px auto 50px;
+	width: 480px;
+	background: url(images/cba.png) no-repeat right bottom;
+	border: 1px solid #e7e9ea;
+	padding: 40px 40px 60px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow:inset 1px 1px 2px #888;
+	-webkit-box-shadow:inset 1px 1px 2px #888;
+	box-shadow:inset 1px 1px 2px #888;
+}
+
+h1 {
+	color: #0d38b2;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+p {
+	color: #5e6a71;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+small {
+	color: #8e969b;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+ul {
+	height: 30px;
+}
+
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	display: block;
+	text-indent: -999px;
+}
+
+li a {
+	width: 20px;
+	height: 20px;
+	background: url(images/bullet_s.png) no-repeat;
+	display: block;
+}
+
+li a:hover {
+	opacity: 0.8;
+}
+
+li.neg a {
+	cursor: default;
+}
+
+li.sel a {
+	background-position: -22px;
+}
+
+li.next a {
+	background-position: -44px;
+}
+
+a#cont {
+	display: block;
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+	text-decoration: none;
+	background-repeat: no-repeat;
+}
+
+#cont.template_1 {
+	background-image: url(images/template_1.jpg);
+	height: 3569px;
+}
+
+#cont.template_2 {
+	background-image: url(images/template_2.jpg);
+	height: 950px;
+}
+
+#cont.template_3 {
+	background-image: url(images/template_3.jpg);
+	height: 1872px;
+}
+
+.loader {
+	background: url(images/loader.gif) no-repeat center center;
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+  background-color: white;
+  z-index: 2;
+}
